@@ -1,0 +1,51 @@
+@import 'mixins.sass';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'logo nav nav nav nav li'
+    'header header header header header header'
+    'info info info info info info'
+    'winactie winactie winactie winactie winactie winactie'
+    'contact contact contact contact contact contact'
+    'footer footer footer footer footer footer'
+  }
+  
+  .nav {
+    padding-top: 5px;
+    grid-area: nav;
+  }
+  header {
+    grid-area: header;
+  }
+  li { 
+    a {
+    grid-area: li;
+   }
+  }
+  #logoItem {
+    grid-area: logo;
+  }
+  .info {
+    grid-area: info;
+  }
+  .ipad-winactie {
+    grid-area: winactie;
+  }
+  .contact {
+    grid-area: contact;
+  }
+  footer {
+    grid-area: footer;
+  }
+
+  @import 'head.sass';
+  @import 'info.sass';
+  @import 'ipad.scss';
+  @import 'contact.scss';

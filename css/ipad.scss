@@ -1,0 +1,54 @@
+@import 'mixins.sass';
+
+.ipad-winactie {
+    background-color: #85BADF;
+    padding-bottom: 3em;
+  }
+  
+.ipad-winactie { 
+   h2 {
+    color: $white-color;
+    margin-left: 9.1em;
+  }
+}
+  
+.ipad-winactie { 
+   p {
+    color:  $white-color;
+    margin-left: 13.5em;
+  }
+}
+  
+.ipad-winactie { 
+   button {
+    color: $white-color;
+    background-color: $primary-color;
+    margin-left: 18em;
+    padding: .7em 2em .7em 2em;
+    border: 2px solid $white-color;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Quicksand';
+  }
+}
+  
+.ipad-winactie { 
+  #ipad {
+    position: absolute;
+    top: 169%;
+    left: 42%;
+    @include transform(translate(-50%, -50%));
+    width: 120px;
+  }
+}
+  
+.ipad-winactie { 
+  #winactie {
+    position: absolute;
+    top: 180%;
+    left: 69%;
+    @include transform(translate(-50%, -50%));
+    width: 505px;
+  }
+}

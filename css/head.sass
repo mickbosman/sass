@@ -1,0 +1,159 @@
+@import mixins.sass
+
+ul 
+  list-style-type: none
+  margin: 0
+  padding: 0
+  overflow: hidden
+
+li 
+  float: right
+
+li 
+  a 
+    display: block
+     color: $primary-color
+     text-align: center
+     padding: 14px 16px
+     text-decoration: none
+
+a 
+  cursor: pointer
+
+
+#logoItem 
+  float: left
+
+
+#logo 
+  width: 185px
+
+
+.dropbtn 
+  background-color: white
+  color: $primary-color
+  padding: 16px
+  font-size: 16px
+  border: none
+  margin-right: 1em
+
+
+.dropdown 
+  position: inherit
+
+
+.dropdown-content 
+  display: none
+  position: absolute
+  top: 6.8%
+  left: 72.9%
+  background-color: white
+  min-width: 128px
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index: 1
+
+
+.dropdown-content 
+  a 
+    color: black
+    padding: 12px 16px
+    text-decoration: none
+    display: block
+
+  a:hover 
+    background-color: #ddd
+
+
+.dropdown:hover 
+  .dropdown-content 
+    display: block
+
+  .dropbtn 
+    background-color: #ddd
+    cursor: pointer
+
+
+.dropbtn2 
+  background-color: white
+  color: $primary-color
+  padding: 16px
+  margin-right: 1em
+  font-size: 16px
+  border: none
+
+
+.dropdown2 
+  position: inherit
+
+
+.dropdown-content2 
+  display: none
+  position: absolute
+  top: 6.8%
+  left: 62.5%
+  background-color: white
+  min-width: 143px
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index: 1
+
+
+.dropdown-content2 
+  a 
+    color: black
+    padding: 12px 16px
+    text-decoration: none
+    display: block
+
+  a:hover 
+    background-color: #ddd
+
+
+.dropdown2:hover 
+  .dropdown-content2 
+    display: block
+
+  .dropbtn2 
+    background-color: #ddd
+    cursor: pointer
+
+#search 
+  margin-top: 15px
+  cursor: pointer
+
+header 
+  position: relative
+  text-align: center
+  color: white
+
+#headTekst 
+  position: absolute
+  top: 37%
+  left: 34%
+  @include transform(translate(-50%, -50%))
+  font-size: 25px
+  text-align: left
+
+#button 
+  background-color: $primary-color
+  color: white
+  border: 3px solid white
+  position: absolute
+  top: 80%
+  left: 45%
+  @include transform(translate(-50%, -50%))
+  border-radius: 6px
+  padding: 1em
+  padding-left: 3em
+  padding-right: 3em
+  font-size: 1em
+  cursor: pointer
+  font-family: 'Quicksand'
+  font-weight: bold
+
+
+#hersens 
+  position: absolute
+  top: 40%
+  left: 90%
+  @include transform(translate(-50%, -50%))
+  width: 200px

@@ -1,0 +1,395 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand.css";
+@import "https://fonts.googleapis.com/css?family=Quicksand.css";
+@import "https://fonts.googleapis.com/css?family=Quicksand.css";
+@import "https://fonts.googleapis.com/css?family=Quicksand.css";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "logo nav nav nav nav li" "header header header header header header" "info info info info info info" "winactie winactie winactie winactie winactie winactie" "contact contact contact contact contact contact" "footer footer footer footer footer footer";
+}
+
+.nav {
+  padding-top: 5px;
+  grid-area: nav;
+}
+
+header {
+  grid-area: header;
+}
+
+li a {
+  grid-area: li;
+}
+
+#logoItem {
+  grid-area: logo;
+}
+
+.info {
+  grid-area: info;
+}
+
+.ipad-winactie {
+  grid-area: winactie;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+footer {
+  grid-area: footer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  display-color: #0073CF;
+  display-text-align: center;
+  display-padding: 14px 16px;
+  display-text-decoration: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+#logoItem {
+  float: left;
+}
+
+#logo {
+  width: 185px;
+}
+
+.dropbtn {
+  background-color: white;
+  color: #0073CF;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-right: 1em;
+}
+
+.dropdown {
+  position: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 6.8%;
+  left: 72.9%;
+  background-color: white;
+  min-width: 128px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.dropbtn2 {
+  background-color: white;
+  color: #0073CF;
+  padding: 16px;
+  margin-right: 1em;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown2 {
+  position: inherit;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  top: 6.8%;
+  left: 62.5%;
+  background-color: white;
+  min-width: 143px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+.dropdown2:hover .dropbtn2 {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+#search {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#headTekst {
+  position: absolute;
+  top: 37%;
+  left: 34%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align: left;
+}
+
+#button {
+  background-color: #0073CF;
+  color: white;
+  border: 3px solid white;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 6px;
+  padding: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Quicksand";
+  font-weight: bold;
+}
+
+#hersens {
+  position: absolute;
+  top: 40%;
+  left: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 3em;
+}
+.info h2 {
+  color: #0073CF;
+}
+.info button {
+  background-color: #0073CF;
+  padding: 1em 2em 1em 2em;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Quicksand";
+}
+.info h3 {
+  color: #0073CF;
+}
+.info a {
+  color: #0073CF;
+  text-decoration: none;
+}
+
+#btnText {
+  font-size: 13px;
+  color: #0073CF;
+}
+
+#ipadPijl {
+  position: absolute;
+  top: 87%;
+  left: 67%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.tabImg {
+  width: 245px;
+}
+
+.tabTitle {
+  font-size: 16px;
+}
+
+.tab1 {
+  float: left;
+  margin-left: 15.5em;
+  text-align: left;
+  font-size: 14px;
+}
+
+.tab2 {
+  float: left;
+  text-align: left;
+  margin-left: 3em;
+  font-size: 14px;
+}
+
+.tab3 {
+  float: left;
+  text-align: left;
+  margin-left: 3em;
+  font-size: 14px;
+}
+
+.tab4 {
+  float: left;
+  text-align: left;
+  margin-left: 3em;
+  font-size: 14px;
+}
+
+.ipad-winactie {
+  background-color: #85BADF;
+  padding-bottom: 3em;
+}
+
+.ipad-winactie h2 {
+  color: #fff;
+  margin-left: 9.1em;
+}
+
+.ipad-winactie p {
+  color: #fff;
+  margin-left: 13.5em;
+}
+
+.ipad-winactie button {
+  color: #fff;
+  background-color: #0073CF;
+  margin-left: 18em;
+  padding: 0.7em 2em 0.7em 2em;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "Quicksand";
+}
+
+.ipad-winactie #ipad {
+  position: absolute;
+  top: 169%;
+  left: 42%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 120px;
+}
+
+.ipad-winactie #winactie {
+  position: absolute;
+  top: 180%;
+  left: 69%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 505px;
+}
+
+.contact {
+  text-align: center;
+  padding-bottom: 2em;
+}
+.contact h2 {
+  color: #0073CF;
+}
+.contact button {
+  color: #fff;
+  background-color: #0073CF;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  font-size: 12px;
+  font-family: "Quicksand";
+  cursor: pointer;
+}
+.contact img {
+  position: absolute;
+  top: 218%;
+  left: 81%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50px;
+}
+
+footer {
+  background-color: #0073CF;
+  color: #fff;
+}
+footer img {
+  float: left;
+  margin-right: 26.2em;
+}
+footer ul {
+  float: right;
+  margin-top: 2em;
+  padding-right: 5em;
+}
+footer li {
+  margin-right: 3em;
+}
+footer li:hover {
+  color: #C2DEF0;
+  cursor: default;
+}
+footer #summary {
+  font-size: 13px;
+  margin-left: 17.3em;
+}
+footer #tag {
+  float: right;
+  margin-right: 10em;
+}
+
+/*# sourceMappingURL=style.css.map */
